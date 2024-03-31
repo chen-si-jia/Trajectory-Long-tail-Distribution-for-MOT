@@ -328,4 +328,6 @@ A large part of the code is borrowed from [ifzhang/FairMOT](https://github.com/i
 
 ## To be continued
 
-The maked dataset and the dataset production code will be updated soon.
+The maked dataset and the dataset production code will be updated soon. 
+
+Thank you! Please star it!
