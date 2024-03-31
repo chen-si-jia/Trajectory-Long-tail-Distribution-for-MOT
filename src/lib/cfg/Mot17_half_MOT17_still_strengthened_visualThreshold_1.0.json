@@ -1,0 +1,15 @@
+{
+    "root":"/mnt/A/hust_chensijia/FairMOT/dataset/MOT17_still_strengthened/visualThreshold_1.0",
+    "train":
+    {
+        "mot17":"./data/mot17.half"
+    },
+    "test_emb":
+    {
+        "mot17":"./data/mot17.emb"
+    },
+    "test":
+    {
+        "mot17":"./data/mot17.val"
+    }
+}

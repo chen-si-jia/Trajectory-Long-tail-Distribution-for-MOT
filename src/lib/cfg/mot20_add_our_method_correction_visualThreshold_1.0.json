@@ -1,0 +1,16 @@
+{
+    "root":"/mnt/A/hust_chensijia/FairMOT/dataset/MOT20_add_our_method_correction/visualThreshold_1.0",
+    "train":
+    {
+        "mot20":"./data/mot20.train"
+    },
+    "test_emb":
+    {
+        "mot20":"./data/mot20.train"
+    },
+    "test":
+    {
+        "mot20":"./data/mot20.train"
+    }
+}
+

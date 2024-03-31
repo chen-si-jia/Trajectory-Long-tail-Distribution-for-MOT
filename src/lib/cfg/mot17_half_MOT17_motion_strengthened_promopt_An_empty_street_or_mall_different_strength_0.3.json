@@ -1,0 +1,18 @@
+{
+    "root":"/mnt/A/hust_chensijia/FairMOT/dataset/MOT17_motion_strengthened/strength/An_empty_street_or_mall/0.3",
+    "train":
+    {
+        "mot17":"./data/mot17.half"
+    },
+    "test_emb":
+    {
+        "mot17":"./data/mot17.emb"
+    },
+    "test":
+    {
+        "mot17":"./data/mot17.val"
+    }
+}
+
+
+

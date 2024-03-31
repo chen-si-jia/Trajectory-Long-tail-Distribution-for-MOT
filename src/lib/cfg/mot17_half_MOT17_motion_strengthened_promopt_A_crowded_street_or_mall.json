@@ -1,0 +1,16 @@
+{
+    "root":"/mnt/A/hust_chensijia/FairMOT/dataset/MOT17_motion_strengthened/promopt/A_crowded_street_or_mall",
+    "train":
+    {
+        "mot17":"./data/mot17.half"
+    },
+    "test_emb":
+    {
+        "mot17":"./data/mot17.emb"
+    },
+    "test":
+    {
+        "mot17":"./data/mot17.val"
+    }
+}
+

@@ -1,0 +1,16 @@
+{
+    "root":"/mnt/A/hust_chensijia/FairMOT/dataset",
+    "train":
+    {
+        "mot20":"./data/mot20LastQuarter.train"
+    },
+    "test_emb":
+    {
+        "mot20":"./data/mot20LastQuarter.train"
+    },
+    "test":
+    {
+        "mot20":"./data/mot20LastQuarter.train"
+    }
+}
+

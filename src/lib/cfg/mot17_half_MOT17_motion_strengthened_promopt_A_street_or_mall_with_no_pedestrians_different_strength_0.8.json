@@ -1,0 +1,16 @@
+{
+    "root":"/mnt/A/hust_chensijia/FairMOT/dataset/MOT17_motion_strengthened/strength/A_street_or_mall_with_no_pedestrians/0.8",
+    "train":
+    {
+        "mot17":"./data/mot17.half"
+    },
+    "test_emb":
+    {
+        "mot17":"./data/mot17.emb"
+    },
+    "test":
+    {
+        "mot17":"./data/mot17.val"
+    }
+}
+
