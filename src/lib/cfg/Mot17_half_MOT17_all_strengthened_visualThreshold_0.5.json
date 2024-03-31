@@ -1,0 +1,16 @@
+{
+    "root":"/mnt/A/hust_chensijia/FairMOT/dataset/MOT17_all_strengthened_gs/A_street_or_mall_with_no_pedestrians/visualThreshold_0.5_strength_0.4",
+    "train":
+    {
+        "mot17":"./data/mot17.half"
+    },
+    "test_emb":
+    {
+        "mot17":"./data/mot17.emb"
+    },
+    "test":
+    {
+        "mot17":"./data/mot17.val"
+    }
+}
+
