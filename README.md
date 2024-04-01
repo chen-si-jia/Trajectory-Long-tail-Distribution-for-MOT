@@ -212,6 +212,8 @@ bash experiments/ablation_study.sh
 ```
 
 
+Our models can be downloaded here [[Baidu], code:hust](https://pan.baidu.com/s/18AQvUgN2Jb2tI5xBtRG0-A?pwd=hust)).
+
 ## Tracking
 * To get the txt results of the test set of MOT15 or MOT16 or MOT17 or MOT20, you should modify the '--load_model' in the sh file and run it:
 
