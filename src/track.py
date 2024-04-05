@@ -69,9 +69,10 @@ def write_results_score(filename, results, data_type):
 
 # def eval_seq(opt, dataloader, data_type, result_filename, save_dir=None, show_image=True, frame_rate=30, use_cuda=True):
 # def eval_seq(opt, dataloader, data_type, result_filename, seq, save_dir=None, show_image=True, frame_rate=30, use_cuda=True):
-def eval_seq(opt, dataloader, data_type, result_filename, seq, use_cuda=True):
-    # # if save_dir:
-    #     mkdir_if_missing(save_dir)
+# def eval_seq(opt, dataloader, data_type, result_filename, seq, use_cuda=True):
+def eval_seq(opt, dataloader, data_type, result_filename, seq, save_dir=None, use_cuda=True):
+    if save_dir:
+        mkdir_if_missing(save_dir)
 
     tracker = JDETracker(opt, frame_rate=opt.frame_rate) # 预计1min
     
@@ -113,13 +114,11 @@ def eval_seq(opt, dataloader, data_type, result_filename, seq, use_cuda=True):
         # save results
         results.append((frame_id + 1, online_tlwhs, online_ids)) 
         # results.append((frame_id + 1, online_tlwhs, online_ids, online_scores)) 
-        # if show_image or save_dir is not None:
-        #     online_im = vis.plot_tracking(img0, online_tlwhs, online_ids, frame_id=frame_id,
-        #                                   fps=1. / timer.average_time)
-        # if show_image:
-        #     cv2.imshow('online_im', online_im)
-        # if save_dir is not None:
-        #     cv2.imwrite(os.path.join(save_dir, '{:05d}.jpg'.format(frame_id)), online_im)
+        if save_dir is not None:
+            online_im = vis.plot_tracking(img0, online_tlwhs, online_ids, frame_id=frame_id,
+                                          fps=1. / timer.average_time)
+        if save_dir is not None:
+            cv2.imwrite(os.path.join(save_dir, '{:05d}.jpg'.format(frame_id)), online_im)
         frame_id += 1
     # save results
     write_results(result_filename, results, data_type) 
