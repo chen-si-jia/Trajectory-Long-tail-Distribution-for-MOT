@@ -2,7 +2,7 @@
 
 > [**Delving into the Trajectory Long-tail Distribution for Muti-object Tracking**](http://arxiv.org/abs/2004.01888)            
 > Sijia Chen, En Yu, Jinyang Li, Wenbing Tao      
-> *CVPR2024 ([arXiv 2403.04700](http://arxiv.org/abs/2403.04700))*
+> *CVPR2024 ([http://arxiv.org/abs/2403.04700](http://arxiv.org/abs/2403.04700))*
 
 ## Poster
 ![](assets/poster.png)
@@ -136,6 +136,10 @@ ${Trajectory-Long-tail-Distribution-for-MOT_ROOT}
            └——————...
 ```
 
+## The important notes:
+Our processed MOT17 dataset by SVA and DVA can be downloaded here [[Baidu, code:hust](https://pan.baidu.com/s/1JnqT4p3cmhTNcj3rhKm__Q)].
+Our models can be downloaded here [[Baidu, code:hust](https://pan.baidu.com/s/101oi6K6SjC4T6PiQvUh6_A)].
+
 ## Training
 * Download the training data
 * Change the dataset root directory 'root' in src/lib/cfg/data.json and 'data_dir' in src/lib/opts.py
@@ -210,9 +214,6 @@ bash experiments/MOT20_ft_mix_add_our_method_dla34.sh
 ```
 bash experiments/ablation_study.sh
 ```
-
-
-Our models can be downloaded here [[Baidu], code:hust](https://pan.baidu.com/s/18AQvUgN2Jb2tI5xBtRG0-A?pwd=hust)).
 
 ## Tracking
 * To get the txt results of the test set of MOT15 or MOT16 or MOT17 or MOT20, you should modify the '--load_model' in the sh file and run it:
@@ -332,6 +333,6 @@ A large part of the code is borrowed from [ifzhang/FairMOT](https://github.com/i
 
 ## To be continued
 
-The maked dataset and the dataset production code will be updated soon. 
+The SVA and DVA code will be updated soon. 
 
 Thank you! Please star it!
