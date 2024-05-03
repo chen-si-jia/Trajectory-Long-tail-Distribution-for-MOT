@@ -329,7 +329,7 @@ A large part of the code is borrowed from [ifzhang/FairMOT](https://github.com/i
 @article{chen2024delving,
   title={Delving into the Trajectory Long-tail Distribution for Muti-object Tracking},
   author={Chen, Sijia and Yu, En and Li, Jinyang and Tao, Wenbing},
-  journal={arXiv preprint arXiv:2403.04700},
+  journal={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2024}
 }
 ```
