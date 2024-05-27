@@ -1,8 +1,9 @@
 # Delving into the Trajectory Long-tail Distribution for Muti-object Tracking
 
-> [**Delving into the Trajectory Long-tail Distribution for Muti-object Tracking**](http://arxiv.org/abs/2004.01888)            
+> [**【CVPR 2024】Delving into the Trajectory Long-tail Distribution for Muti-object Tracking**](http://arxiv.org/abs/2004.01888)            
 > Sijia Chen, En Yu, Jinyang Li, Wenbing Tao      
-> *CVPR2024 ([http://arxiv.org/abs/2403.04700](http://arxiv.org/abs/2403.04700))*
+> *Paper ([http://arxiv.org/abs/2403.04700](http://arxiv.org/abs/2403.04700))*      
+> *YouTube ([https://www.youtube.com/watch?v=ohgIesSNgaQ](https://www.youtube.com/watch?v=ohgIesSNgaQ))*
 
 If you have any problems with our work, please issue me. We will promptly reply it.
 
