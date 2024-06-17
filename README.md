@@ -14,6 +14,7 @@ If you have any problems with our work, please issue me. We will promptly reply 
 Multiple Object Tracking (MOT) is a critical area within computer vision, with a broad spectrum of practical implementations. Current research has primarily focused on the development of tracking algorithms and enhancement of post-processing techniques. Yet, there has been a lack of thorough examination concerning the nature of tracking data it self. In this study, we pioneer an exploration into the distribution patterns of tracking data and identify a pronounced long-tail distribution issue within existing MOT datasets. We note a significant imbalance in the distribution of trajectory lengths across different pedestrians, a phenomenon we refer to as “pedestrians trajectory long-tail distribution”. Addressing this challenge, we introduce a bespoke strategy designed to mitigate the effects of this skewed distribution. Specifically, we propose two data augmentation strategies, including Stationary Camera View Data Augmentation (SVA) and Dynamic Camera View Data Augmentation (DVA) , designed for viewpoint states and the Group Softmax (GS) module for Re-ID. SVA is to backtrack and predict the pedestrian trajectory of tail classes, and DVA is to use diffusion model to change the background of the scene. GS divides the pedestrians into unrelated groups and performs softmax operation on each group individually. Our proposed strategies can be integrated into numerous existing tracking systems, and extensive experimentation validates the efficacy of our method in reducing the influence of long-tail distribution on multi-object tracking performance. 
 
 ## News
+* (2024.06.17) The DVA is opened!
 * (2024.04.19) Our poster is selected for the 3th China3DV presentation!
 * (2024.02.27) Our paper is accepted by CVPR 2024!
 
@@ -323,8 +324,11 @@ You can change --input-video and --output-root to get the demos of your own vide
 
 
 ## Acknowledgement
-A large part of the code is borrowed from [ifzhang/FairMOT](https://github.com/ifzhang/FairMOT). Thanks for his wonderful works.
-
+The part of the code are borrowed from the follow work:
+- [ifzhang/FairMOT](https://github.com/ifzhang/FairMOT). 
+- [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion)
+- [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything)
+Thanks for their wonderful works.
 
 ## Citation
 ```
@@ -338,6 +342,6 @@ A large part of the code is borrowed from [ifzhang/FairMOT](https://github.com/i
 
 ## To be continued
 
-The SVA and DVA code will be updated soon. 
+The SVA code will be updated soon. 
 
 Thank you! Please star it!
