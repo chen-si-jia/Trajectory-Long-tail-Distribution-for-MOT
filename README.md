@@ -328,6 +328,7 @@ The part of the code are borrowed from the follow work:
 - [ifzhang/FairMOT](https://github.com/ifzhang/FairMOT). 
 - [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion)
 - [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything)
+
 Thanks for their wonderful works.
 
 ## Citation
