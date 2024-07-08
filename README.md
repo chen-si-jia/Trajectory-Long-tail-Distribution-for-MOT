@@ -7,6 +7,10 @@
 
 If you have any problems with our work, please issue me. We will promptly reply it.
 
+If you cite our method for experimental comparison, you can use the method name **TLTDMOT**.
+
+Thank you!
+
 ## Poster
 ![](assets/poster.png)
 
