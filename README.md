@@ -349,9 +349,3 @@ Thanks for their wonderful works.
     pages     = {19341-19351}
 }
 ```
-
-## To be continued
-
-The SVA code will be updated soon. 
-
-Thank you! Please star it!
