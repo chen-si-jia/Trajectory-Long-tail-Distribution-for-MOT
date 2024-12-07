@@ -2,12 +2,13 @@
 
 > [**【CVPR 2024】Delving into the Trajectory Long-tail Distribution for Muti-object Tracking**](http://arxiv.org/abs/2403.04700)            
 > Sijia Chen, En Yu, Jinyang Li, Wenbing Tao      
-> *Paper ([http://arxiv.org/abs/2403.04700](http://arxiv.org/abs/2403.04700))*      
-> *YouTube ([https://www.youtube.com/watch?v=ohgIesSNgaQ](https://www.youtube.com/watch?v=ohgIesSNgaQ))*
+> *[ArXiv] Paper ([http://arxiv.org/abs/2403.04700](http://arxiv.org/abs/2403.04700))*  
+> *[CVPR] Paper ([Delving_into_the_Trajectory_Long-tail_Distribution_for_Muti-object_Tracking_CVPR_2024_paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_Delving_into_the_Trajectory_Long-tail_Distribution_for_Muti-object_Tracking_CVPR_2024_paper.pdf)))*  
+> *YouTube ([https://www.youtube.com/watch?v=ohgIesSNgaQ](https://www.youtube.com/watch?v=ohgIesSNgaQ))*   
 
 If you have any problems with our work, please issue me. We will promptly reply it.
 
-If you cite our method for experimental comparison, you can use the method name **TLTDMOT**.
+If you cite our method for experimental comparison, you can use the method name **TLDMOT**.
 
 
 ## Poster
@@ -33,8 +34,8 @@ I'm Sijia Chen. I'm very sorry. There is a small error in Figure 1 in the offici
 * Clone this repo, and we'll call the directory that you cloned as ${Trajectory-Long-tail-Distribution-for-MOT_ROOT}
 * Install dependencies. We use python 3.8 and pytorch >= 1.7.0
 ```
-conda create -n TLTDMOT python=3.8
-conda activate TLTDMOT
+conda create -n TLDMOT python=3.8
+conda activate TLDMOT
 conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=11.0 -c pytorch
 cd ${Trajectory-Long-tail-Distribution-for-MOT_ROOT}
 pip install cython # Optional addition: -i https://pypi.tuna.tsinghua.edu.cn/simple/
