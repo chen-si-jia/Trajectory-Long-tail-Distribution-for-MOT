@@ -129,7 +129,7 @@ We use the same training data as [JDE](https://github.com/Zhongdao/Towards-Realt
 ## Pretrained models and baseline model
 * **Pretrained models**
 
-DLA-34 COCO pretrained model: [DLA-34 official](https://drive.google.com/file/d/1pl_-ael8wERdUREEnaIfqOV_VF2bEVRT/view).
+DLA-34 official COCO pretrained model: ctdet_coco_dla_2x.pth [[Baidu, code:hust]](https://pan.baidu.com/s/1r4c9gZCTYMF4mzP0uXQG5g?pwd=hust).
 HRNetV2 ImageNet pretrained model: [HRNetV2-W18 official](https://1drv.ms/u/s!Aus8VCZ_C_33cMkPimlmClRvmpw), [HRNetV2-W32 official](https://1drv.ms/u/s!Aus8VCZ_C_33dYBMemi9xOUFR0w).
 After downloading, you should put the pretrained models in the following structure:
 ```
@@ -153,9 +153,9 @@ ${Trajectory-Long-tail-Distribution-for-MOT_ROOT}
 ```
 
 ## The important notes:
-Our processed MOT17 dataset by SVA and DVA can be downloaded here [[Baidu, code:hust](https://pan.baidu.com/s/1JnqT4p3cmhTNcj3rhKm__Q)].
+Our processed MOT17 dataset by SVA and DVA can be downloaded here [[Baidu, code:hust](https://pan.baidu.com/s/1JnqT4p3cmhTNcj3rhKm__Q?pwd=hust)].
 
-Our models can be downloaded here [[Baidu, code:hust](https://pan.baidu.com/s/101oi6K6SjC4T6PiQvUh6_A)].
+Our models can be downloaded here [[Baidu, code:hust](https://pan.baidu.com/s/101oi6K6SjC4T6PiQvUh6_A?pwd=hust)].
 
 ## Training
 * Download the training data
