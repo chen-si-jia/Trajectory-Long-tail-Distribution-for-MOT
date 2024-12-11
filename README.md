@@ -129,7 +129,7 @@ We use the same training data as [JDE](https://github.com/Zhongdao/Towards-Realt
 ## Pretrained models and baseline model
 * **Pretrained models**
 
-DLA-34 official COCO pretrained model: ctdet_coco_dla_2x.pth [[Baidu, code:hust]](https://pan.baidu.com/s/1r4c9gZCTYMF4mzP0uXQG5g?pwd=hust).
+DLA-34 official COCO pretrained model: ctdet_coco_dla_2x.pth can be downloaded here [[Baidu, code:hust]](https://pan.baidu.com/s/1r4c9gZCTYMF4mzP0uXQG5g?pwd=hust), [[Google]](https://drive.google.com/file/d/10_lybGkTxhkRMc9oEGK94ccxB-9wGzC_/view?usp=drive_link).
 HRNetV2 ImageNet pretrained model: [HRNetV2-W18 official](https://1drv.ms/u/s!Aus8VCZ_C_33cMkPimlmClRvmpw), [HRNetV2-W32 official](https://1drv.ms/u/s!Aus8VCZ_C_33dYBMemi9xOUFR0w).
 After downloading, you should put the pretrained models in the following structure:
 ```
