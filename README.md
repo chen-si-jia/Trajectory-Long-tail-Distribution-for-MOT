@@ -8,7 +8,7 @@
 
 If you have any problems with our work, please issue me. We will promptly reply it.
 
-If you cite our method for experimental comparison, you can use the method name **TLDMOT**.
+If you cite our method for experimental comparison, you can use the method name **TLTDMOT**.
 
 
 ## Poster
@@ -34,8 +34,8 @@ I'm Sijia Chen. I'm very sorry. There is a small error in Figure 1 in the offici
 * Clone this repo, and we'll call the directory that you cloned as ${Trajectory-Long-tail-Distribution-for-MOT_ROOT}
 * Install dependencies. We use python 3.8 and pytorch >= 1.7.0
 ```
-conda create -n TLDMOT python=3.8
-conda activate TLDMOT
+conda create -n TLDTMOT python=3.8
+conda activate TLDTMOT
 conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=11.0 -c pytorch
 cd ${Trajectory-Long-tail-Distribution-for-MOT_ROOT}
 pip install cython # Optional addition: -i https://pypi.tuna.tsinghua.edu.cn/simple/
