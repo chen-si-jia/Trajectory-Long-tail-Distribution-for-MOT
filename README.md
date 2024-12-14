@@ -20,7 +20,9 @@ Multiple Object Tracking (MOT) is a critical area within computer vision, with a
 
 
 ## Apology letter
-I'm Sijia Chen. I'm very sorry. There is a small error in Figure 1 in the official version of CVPR. We made a mistake when submitting the camera-ready version. We found this error in May 2024 and contacted the publisher immediately, but failed because the deadline for the camera-ready version had passed.
+I'm Sijia Chen. I'm very sorry. There is a small error in Figure 1 in the paper of official CVPR. Figure 1 in the paper of ArXiv is correct. 
+
+We made a mistake when submitting the camera-ready version of CVPR. Although we found this error in May 2024 and contacted the publisher immediately, we were unable to correct it because the deadline for the camera-ready version of CVPR had passed.
 
 
 ## News
