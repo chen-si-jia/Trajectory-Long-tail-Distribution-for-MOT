@@ -338,7 +338,7 @@ You can change --input-video and --output-root to get the demos of your own vide
 
 ## Acknowledgement
 The part of the code are borrowed from the follow work:
-- [ifzhang/FairMOT](https://github.com/ifzhang/FairMOT). 
+- [ifzhang/FairMOT](https://github.com/ifzhang/FairMOT)
 - [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion)
 - [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything)
 
