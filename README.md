@@ -32,7 +32,7 @@ We made a mistake when submitting the camera-ready version of CVPR. Although we 
 
 
 ## Installation
-* Note: We use the NVIDIA GeForce RTX 3090 GPU and cuda 11.1.
+* Note: We use a NVIDIA GeForce RTX 3090 GPU and cuda 11.1.
 * Clone this repo, and we'll call the directory that you cloned as ${Trajectory-Long-tail-Distribution-for-MOT_ROOT}
 * Install dependencies. We use python 3.8 and pytorch >= 1.7.0
 ```
