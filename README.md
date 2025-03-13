@@ -27,7 +27,7 @@ We made a mistake when submitting the camera-ready version of CVPR. Although we 
 
 
 ## News
-* (2025.03.13) The code of SVA is opened! Now, our code for our all modules is opened!
+* (2025.03.13) The code of SVA is opened! Now, our code for all modules is open!
 * (2024.06.17) The code of DVA is opened!
 * (2024.04.19) Our poster is selected for the 3th China3DV presentation!
 * (2024.02.27) The code of GS is opened!
