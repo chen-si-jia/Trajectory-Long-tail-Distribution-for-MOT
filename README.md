@@ -160,7 +160,7 @@ ${Trajectory-Long-tail-Distribution-for-MOT_ROOT}
 ## The important notes:
 Our processed MOT17 dataset by SVA and DVA can be downloaded here [[Baidu, code:hust](https://pan.baidu.com/s/1JnqT4p3cmhTNcj3rhKm__Q?pwd=hust)].
 
-Our models can be downloaded here [[Baidu, code:hust](https://pan.baidu.com/s/101oi6K6SjC4T6PiQvUh6_A?pwd=hust)].
+Our models can be downloaded here [[Google]](https://drive.google.com/drive/folders/1Y3t9XQsLgVup-nEprr0XUzY6A4y-NYsR?usp=sharing) [[Baidu, code:hust](https://pan.baidu.com/s/101oi6K6SjC4T6PiQvUh6_A?pwd=hust)].
 
 ## Training
 * Download the training data
