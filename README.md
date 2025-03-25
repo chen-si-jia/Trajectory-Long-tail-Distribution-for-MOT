@@ -333,7 +333,7 @@ bash experiments/ablation_study_classes_track.sh
 You can input a raw video and get the demo video by running src/demo.py and get the mp4 format of the demo video:
 ```
 cd src
-python demo.py mot --load_model ../models/Table_4_MIX_model_20.pth --conf_thres 0.4
+python demo.py mot --load_model ../models/Table_4_MIX_model_20.pth --conf_thres 0.5
 ```
 You can change --input-video and --output-root to get the demos of your own videos.
 --conf_thres can be set from 0.3 to 0.7 depending on your own videos.
