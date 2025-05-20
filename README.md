@@ -1,4 +1,4 @@
-# Delving into the Trajectory Long-tail Distribution for Muti-object Tracking
+# 🚀 Delving into the Trajectory Long-tail Distribution for Muti-object Tracking
 
 > [**【CVPR 2024】Delving into the Trajectory Long-tail Distribution for Muti-object Tracking**](https://openaccess.thecvf.com/content/CVPR2024/html/Chen_Delving_into_the_Trajectory_Long-tail_Distribution_for_Muti-object_Tracking_CVPR_2024_paper.html)            
 > Sijia Chen, En Yu, Jinyang Li, Wenbing Tao                    
@@ -13,21 +13,21 @@ If you cite our method for experimental comparison, you can use the method name 
 
 Thanks for your attention! If you are interested in our work, please give us a star ⭐️.
 
-## Poster
+## ✨ Poster
 ![](assets/poster.png)
 
 
-## Abstract
+## 🔍 Abstract
 Multiple Object Tracking (MOT) is a critical area within computer vision, with a broad spectrum of practical implementations. Current research has primarily focused on the development of tracking algorithms and enhancement of post-processing techniques. Yet, there has been a lack of thorough examination concerning the nature of tracking data it self. In this study, we pioneer an exploration into the distribution patterns of tracking data and identify a pronounced long-tail distribution issue within existing MOT datasets. We note a significant imbalance in the distribution of trajectory lengths across different pedestrians, a phenomenon we refer to as “pedestrians trajectory long-tail distribution”. Addressing this challenge, we introduce a bespoke strategy designed to mitigate the effects of this skewed distribution. Specifically, we propose two data augmentation strategies, including Stationary Camera View Data Augmentation (SVA) and Dynamic Camera View Data Augmentation (DVA) , designed for viewpoint states and the Group Softmax (GS) module for Re-ID. SVA is to backtrack and predict the pedestrian trajectory of tail classes, and DVA is to use diffusion model to change the background of the scene. GS divides the pedestrians into unrelated groups and performs softmax operation on each group individually. Our proposed strategies can be integrated into numerous existing tracking systems, and extensive experimentation validates the efficacy of our method in reducing the influence of long-tail distribution on multi-object tracking performance. 
 
 
-## Apology letter
+## 📰 Apology letter
 I'm Sijia Chen. I'm very sorry. There is a small error in Figure 1 in the paper of official CVPR. Figure 1 in the paper of ArXiv is correct. 
 
 We made a mistake when submitting the camera-ready version of CVPR. Although we found this error in May 2024 and contacted the publisher immediately, we were unable to correct it because the deadline for the camera-ready version of CVPR had passed.
 
 
-## News
+## 🔥 News
 * (2025.03.13) The code of SVA is opened! Now, our code for all modules is open!
 * (2024.06.17) The code of DVA is opened!
 * (2024.04.19) Our poster is selected for the 3th China3DV presentation!
@@ -35,7 +35,7 @@ We made a mistake when submitting the camera-ready version of CVPR. Although we 
 * (2024.02.27) Our paper is accepted by CVPR 2024!
 
 
-## Installation
+## 🔨 Installation
 * Note: We use a NVIDIA GeForce RTX 3090 GPU and cuda 11.1.
 * Clone this repo, and we'll call the directory that you cloned as ${Trajectory-Long-tail-Distribution-for-MOT_ROOT}
 * Install dependencies. We use python 3.8 and pytorch >= 1.7.0
@@ -59,7 +59,7 @@ conda install ffmpeg
 pip install ffmpy
 ```
 
-## Data preparation
+## 🧱 Data preparation
 * **2DMOT15 , MOT16, MOT17 and MOT20** 
 [2DMOT15](https://motchallenge.net/data/2D_MOT_2015/), [MOT16](https://motchallenge.net/data/MOT16/), [MOT17](https://motchallenge.net/data/MOT17/) and [MOT20](https://motchallenge.net/data/MOT20/) can be downloaded from the official webpage of MOT challenge. The After downloading, you should prepare the data in the following structure:
 ```
@@ -132,7 +132,7 @@ python gen_labels_crowd_det.py
 * **MIX**
 We use the same training data as [JDE](https://github.com/Zhongdao/Towards-Realtime-MOT) in this part and we call it "MIX". Please refer to their [DATA ZOO](https://github.com/Zhongdao/Towards-Realtime-MOT/blob/master/DATASET_ZOO.md) to download and prepare all the training data including Caltech Pedestrian, CityPersons, CUHK-SYSU, PRW, ETHZ, MOT17 and MOT16. 
 
-## Pretrained models and baseline model
+## 📍 Pretrained models and baseline model
 * **Pretrained models**
 
 DLA-34 official COCO pretrained model: ctdet_coco_dla_2x.pth can be downloaded here [[Baidu, code:hust]](https://pan.baidu.com/s/1r4c9gZCTYMF4mzP0uXQG5g?pwd=hust), [[Google]](https://drive.google.com/file/d/10_lybGkTxhkRMc9oEGK94ccxB-9wGzC_/view?usp=drive_link).
@@ -158,12 +158,12 @@ ${Trajectory-Long-tail-Distribution-for-MOT_ROOT}
            └——————...
 ```
 
-## The important notes:
+## 📍 The important notes:
 Our processed MOT17 dataset by SVA and DVA can be downloaded here [[Google]](https://drive.google.com/drive/folders/15rAPb50yX_HTGOqrevD1VYbEKj1B2349?usp=sharing) [[Baidu, code:hust](https://pan.baidu.com/s/1JnqT4p3cmhTNcj3rhKm__Q?pwd=hust)].
 
 Our models can be downloaded here [[Google]](https://drive.google.com/drive/folders/1Y3t9XQsLgVup-nEprr0XUzY6A4y-NYsR?usp=sharing) [[Baidu, code:hust](https://pan.baidu.com/s/101oi6K6SjC4T6PiQvUh6_A?pwd=hust)].
 
-## Training
+## 🔥 Training
 * Download the training data
 * Change the dataset root directory 'root' in src/lib/cfg/data.json and 'data_dir' in src/lib/opts.py
 * Only train on MOT15:
@@ -238,7 +238,7 @@ bash experiments/MOT20_ft_mix_add_our_method_dla34.sh
 bash experiments/ablation_study.sh
 ```
 
-## Tracking
+## 💨 Tracking
 * To get the txt results of the test set of MOT15 or MOT16 or MOT17 or MOT20, you should modify the '--load_model' in the sh file and run it:
 
 MOT15:
@@ -330,7 +330,7 @@ bash experiments/ablation_study_classes_track.sh
 ```
 
 
-## Demo
+## ⚡️ Demo
 You can input a raw video and get the demo video by running src/demo.py and get the mp4 format of the demo video:
 ```
 cd src
@@ -342,7 +342,7 @@ You can change --input-video and --output-root to get the demos of your own vide
 Note: Table_4_MIX_model_20.pth can be downloaded here [[Google]](https://drive.google.com/file/d/1NFQtDe3PgziaLAXG1dP7mxUO2DP12oU6/view?usp=sharing) [[Baidu, code:hust](https://pan.baidu.com/s/1CjA8s9djQJi97EywzoJ9Eg?pwd=hust)].
 
 
-## Acknowledgement
+## 💐 Acknowledgement
 The part of the code are borrowed from the follow work:
 - [ifzhang/FairMOT](https://github.com/ifzhang/FairMOT)
 - [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion)
@@ -350,7 +350,7 @@ The part of the code are borrowed from the follow work:
 
 Thanks for their wonderful works.
 
-## Citation
+## ✏️ Citation
 ```
 @InProceedings{Chen_2024_CVPR,
     author    = {Chen, Sijia and Yu, En and Li, Jinyang and Tao, Wenbing},
