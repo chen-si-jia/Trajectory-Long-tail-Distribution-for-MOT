@@ -350,6 +350,11 @@ The part of the code are borrowed from the follow work:
 
 Thanks for their wonderful works.
 
+## 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=chen-si-jia/Trajectory-Long-tail-Distribution-for-MOT&type=Date)](https://star-history.com/#chen-si-jia/Trajectory-Long-tail-Distribution-for-MOT&Date)
+
+
 ## ✏️ Citation
 ```
 @InProceedings{Chen_2024_CVPR,
