@@ -21,10 +21,12 @@ Thanks for your attention! If you are interested in our work, please give us a s
 Multiple Object Tracking (MOT) is a critical area within computer vision, with a broad spectrum of practical implementations. Current research has primarily focused on the development of tracking algorithms and enhancement of post-processing techniques. Yet, there has been a lack of thorough examination concerning the nature of tracking data it self. In this study, we pioneer an exploration into the distribution patterns of tracking data and identify a pronounced long-tail distribution issue within existing MOT datasets. We note a significant imbalance in the distribution of trajectory lengths across different pedestrians, a phenomenon we refer to as “pedestrians trajectory long-tail distribution”. Addressing this challenge, we introduce a bespoke strategy designed to mitigate the effects of this skewed distribution. Specifically, we propose two data augmentation strategies, including Stationary Camera View Data Augmentation (SVA) and Dynamic Camera View Data Augmentation (DVA) , designed for viewpoint states and the Group Softmax (GS) module for Re-ID. SVA is to backtrack and predict the pedestrian trajectory of tail classes, and DVA is to use diffusion model to change the background of the scene. GS divides the pedestrians into unrelated groups and performs softmax operation on each group individually. Our proposed strategies can be integrated into numerous existing tracking systems, and extensive experimentation validates the efficacy of our method in reducing the influence of long-tail distribution on multi-object tracking performance. 
 
 
-## 📰 Apology letter
-I'm Sijia Chen. I'm very sorry. There is a small error in Figure 1 in the paper of official CVPR. Figure 1 in the paper of ArXiv is correct. 
+## 📰 Correction Notice (CVPR 2024 Paper)
 
-We made a mistake when submitting the camera-ready version of CVPR. Although we found this error in May 2024 and contacted the publisher immediately, we were unable to correct it because the deadline for the camera-ready version of CVPR had passed.
+In the official version of our CVPR 2024 paper, the figure on the first page mistakenly shows the same image repeated four times due to a formatting error. The intended figure should have displayed four different examples. The correct version of Figure 1 is available in the latest arXiv version of our paper.
+
+We discovered this mistake in May 2024 and immediately contacted the publisher. However, since the camera-ready deadline had already passed, we were unable to make further changes to the printed proceedings. We sincerely apologize for this oversight and appreciate the understanding of the research community.
+
 
 
 ## 🔥 News
