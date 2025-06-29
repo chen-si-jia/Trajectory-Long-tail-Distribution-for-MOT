@@ -13,7 +13,7 @@ If you cite our method for experimental comparison, you can use the method name 
 
 Thanks for your attention! If you are interested in our work, please give us a star ⭐️.
 
-## ✨ Poster
+## 📖 Poster
 ![](assets/poster.png)
 
 
@@ -240,7 +240,7 @@ bash experiments/MOT20_ft_mix_add_our_method_dla34.sh
 bash experiments/ablation_study.sh
 ```
 
-## 💨 Tracking
+## 📊 Tracking
 * To get the txt results of the test set of MOT15 or MOT16 or MOT17 or MOT20, you should modify the '--load_model' in the sh file and run it:
 
 MOT15:
