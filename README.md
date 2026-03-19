@@ -359,12 +359,11 @@ Thanks for their wonderful works.
 
 ## ✏️ Citation
 ```
-@InProceedings{Chen_2024_CVPR,
-    author    = {Chen, Sijia and Yu, En and Li, Jinyang and Tao, Wenbing},
-    title     = {Delving into the Trajectory Long-tail Distribution for Muti-object Tracking},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
-    year      = {2024},
-    pages     = {19341-19351}
+@inproceedings{chen2024delving,
+  title={Delving into the Trajectory Long-tail Distribution for Muti-object Tracking},
+  author={Chen, Sijia and Yu, En and Li, Jinyang and Tao, Wenbing},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={19341--19351},
+  year={2024}
 }
 ```
