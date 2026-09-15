@@ -360,10 +360,11 @@ Thanks for their wonderful works.
 ## ✏️ Citation
 ```
 @inproceedings{chen2024delving,
-  title={Delving into the Trajectory Long-tail Distribution for Muti-object Tracking},
+  title={Delving into the trajectory long-tail distribution for muti-object tracking},
   author={Chen, Sijia and Yu, En and Li, Jinyang and Tao, Wenbing},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  booktitle={2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   pages={19341--19351},
-  year={2024}
+  year={2024},
+  organization={IEEE}
 }
 ```
