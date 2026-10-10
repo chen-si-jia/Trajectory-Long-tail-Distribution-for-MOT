@@ -9,7 +9,7 @@
 
 If you have any problems with our work, please issue me. We will promptly reply it.
 
-If you cite our method for experimental comparison, you can use the method name **LTD** or **LTDMOT** or **TLTDMOT**.
+If you cite our method for experimental comparison, you can use the method name **LTDMOT** or **TLTDMOT**.
 
 Thanks for your attention! If you are interested in our work, please give us a star ⭐️.
 
